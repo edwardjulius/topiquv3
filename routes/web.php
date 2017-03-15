@@ -22,3 +22,10 @@ Route::get('/about', function () {
 Route::get('/post', function () {
     return view('post');
 });
+
+// topiqu.com/register
+Route::get('/register', function () {
+    return view('register');
+});
+
+Route::post('/register', 'Auth\RegisterController@register');
