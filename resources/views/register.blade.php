@@ -1,7 +1,7 @@
 @extends('master')
 @section('content')
 <div class="container">
-  <main class="grey lighten-5 container">
+  <main class="grey lighten-5">
     <br /> <br /> <br />
     <form class="col s8 offset-s2" method="POST" role="form" action="{{ url('/register') }}">
       {{ csrf_field() }}
